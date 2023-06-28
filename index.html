@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <!-- better to add the script file at the bottom of the code to avoid lag problems -->
+</head>
+<body>
+    <h1 align="center" style="font-family:ALGERIAN;">CALCULATOR</h1>
+    <div class="body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" class="screen" id="screen">
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button onclick="clrscr()" class="btn_op">C</button>
+                    <button onclick="answer()" class="btn_op">Ans</button>
+                </div>
+                <div class="row">
+                    <button onclick="clicks(7)" class="btn">7</button>
+                    <button onclick="clicks(8)" class="btn">8</button>
+                    <button onclick="clicks(9)" class="btn">9</button>
+                    <button onclick="click_op('/')" class="btn_op">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="clicks(4)" class="btn">4</button>
+                    <button onclick="clicks(5)" class="btn">5</button>
+                    <button onclick="clicks(6)" class="btn">6</button>
+                    <button onclick="click_op('*')" class="btn_op">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="clicks(1)" class="btn">1</button>
+                    <button onclick="clicks(2)" class="btn">2</button>
+                    <button onclick="clicks(3)" class="btn">3</button>
+                    <button onclick="click_op('-')" class="btn_op">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="clicks('.')" class="btn">.</button>
+                    <button onclick="clicks(0)" class="btn">0</button>
+                    <button onclick="click_op('+')" class="btn_op">+</button>
+                    <button onclick="eqclick()" class="btn_op">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

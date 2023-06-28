@@ -1,0 +1,83 @@
+.calc{
+    width: 450px;
+    height: 600px;
+    background-color: rgb(55, 65, 76);
+    margin-left: 530px; /*to move the field to centre */
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.screen{
+    width: 80%;
+    margin-left: 40px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: rgb(174, 239, 239);
+    pointer-events: none; /*so we cannot edit in the text field*/
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(151, 205, 188);
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* .temp{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(55, 65, 76);
+    margin-left: 30px;
+    margin-top: 30px;
+} */
+
+.btn:hover{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(43, 133, 27);
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn_op:hover{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(43, 133, 27);
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn_op{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(95, 129, 185);
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* .btn_top{
+    width: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(115, 228, 177);
+    margin-left: 40px;
+    margin-top: 30px;
+
+} */

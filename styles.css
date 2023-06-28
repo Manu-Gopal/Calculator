@@ -2,7 +2,7 @@
     width: 450px;
     height: 600px;
     background-color: rgb(55, 65, 76);
-    margin-left: 530px; /*to move the field to centre */
+    margin-left: 35%; /*to move the field to centre */
     margin-top: 25px;
     border-radius: 10px;
 }
